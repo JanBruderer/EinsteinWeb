@@ -1,0 +1,157 @@
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Impact", Haettenschweiler, "Franklin Gothic Heavy", sans-serif;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1 {
+  color: #000000;
+  background-color: var(--main-color);
+  font-size: 85px;
+  border-radius: 20px;
+  padding: 20px 40px;
+  display: inline-block;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+
+h1:hover {
+  transform: scale(1.03);
+}
+
+
+h2 {
+    font-size: 25px;
+}
+
+h2:hover {
+    transform: scale(1.03);
+    color: hsl(0, 44%, 41%);
+  }
+
+
+h3 {
+    font-size: 25px;
+}
+
+h3:hover {
+    transform: scale(1.03);
+    color: hsl(0, 44%, 41%);
+  }
+  
+h4 {
+    font-size: 25px;
+}
+
+h4:hover {
+    transform: scale(1.03);
+    color: hsl(0, 44%, 41%);
+  }
+  
+h5 {
+    font-size: 25px;
+}
+
+h5:hover {
+    transform: scale(1.03);
+    color: hsl(0, 44%, 41%);
+  }
+  
+h6 {
+    font-size: 25px;
+}
+
+h6:hover {
+    transform: scale(1.03);
+    color: hsl(0, 44%, 41%);
+  }
+  
+h7 {
+    color: #000000;
+  background-color: var(--main-color);
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 20px 40px;
+  display: inline-block;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+p {
+  background-color: var(--card-bg);
+  border: 2px solid var(--main-color);
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 70%;
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 22px;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+p:hover {
+  color: var(--main-color);
+  background-color: var(--hover-bg);
+  transform: translateY(-2px);
+}
+
+a {
+  display: block;
+  color: var(--main-color);
+  font-size: 22px;
+  text-decoration: none;
+  border: 2px solid var(--main-color);
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 70%;
+  max-width: 700px;
+  margin: 25px auto;
+  transition: all 0.3s ease;
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+  background-color: var(--main-color);
+  color: hsl(0, 0%, 0%);
+   font-size: 25px;
+   transition: all 700ms;
+  transform: translateY(-3px);
+}
+
+img {
+    color: hsl(0, 0%, 0%);
+    font-size: 30px;
+    font-family: "Impact";
+    border: 60px hwb(0 23% 41%);
+    border-radius: 140px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    margin: 20px auto;
+    max-width: 350;
+    max-height: 350;
+   
+  
+  
+ }
+
+
+ img:hover {
+    border-radius: 150px;
+    color: hsl(0, 44%, 41%);
+    font-size: 40px;
+    transition: all 250ms;
+ }
